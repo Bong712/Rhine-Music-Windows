@@ -1,0 +1,22 @@
+.music-boot-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 900;
+  overflow: hidden;
+  background: transparent;
+  outline: none;
+}
+.music-boot-skip {
+  position: absolute;
+  right: 40px;
+  top: 33px;
+  padding: 10px 14px;
+  border: 1px solid var(--line);
+  background: var(--veil);
+  color: var(--ink);
+  font-size: 12px;
+  cursor: pointer;
+}
+@media (max-width: 700px) {
+  .music-boot-skip { top: 23px; right: 20px; font-size: 11px; }
+}
